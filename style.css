@@ -6,12 +6,9 @@ html{
 body{
     margin: 20px;
     min-height: 400px;
-    /* min-height: 200px; */
     background: linear-gradient(30deg, #dcfede 0%, #9df5f5 100%);
     background-size: cover;
     background-repeat: no-repeat;
-    /* display: flex; */
-    /* height: calc(100% - 20px); */
 }
 
 .container{
@@ -48,35 +45,14 @@ input[type=text]:focus{
 
 .fa-circle-xmark, .fa-bookmark{
     flex: 0 0 5%;
-    /* border: 1px solid red; */
-    /* position: relative; */
     z-index: -1;
     translate: 2px -5px;
     box-sizing: border-box;
     padding: 5px;
 }
 
-.button-c{
-    display:  flex;
-    justify-content: center;
+.button-field, .button-c{
     display: none;
-}
-
-.button-field{
-    display: none;
-    background-color:#FF85FF;
-    padding: 15px;
-    width: 150px;
-    height: 50px;
-    max-width: 150px;
-    max-height: 50px;
-    border: none ;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px #ec25ec;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
-    transition: background-color,font-size 0.2s ease-in;
-    
 }
 
 .button-field:hover{
@@ -94,7 +70,6 @@ input[type=text]:focus{
 }
 
 .list li{
-    /* border: 1px solid red; */
     padding: 10px;
 }
 
