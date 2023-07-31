@@ -4,7 +4,7 @@ The Website Tracker Extension is a project that aims to develop a browser extens
 
 The Chrome extension is designed to assist users in tracking websites and storing their links for future reference. 
 The extension utilizes front-end languages to create a basic structure and responsive web page. It also incorporates JSON and oe of Web Storage API meachanism 
-LocalStorage techniques to store website links in browser itseld. This ensures that the link data is maintained until the user chooses to delete it.
+LocalStorage techniques to store website links in browser itself. This ensures that the link data is maintained until the user chooses to delete it.
 
 ## Technologies Used
 #### Front-End Language: HTML, CSS and Javascipt
@@ -17,7 +17,7 @@ LocalStorage techniques to store website links in browser itseld. This ensures t
 The project aims to add a feature that allows users to add the current tab they are viewing to their list of tabs.
 When you click on the Bookmark Icon, it will save and log the information to the website for your reference.
 
-### 2. Save Cutom Link
+### 2. Save Custom Link
 The project involves creating a feature that allows users to save custom links.
 
 ### 3. Delete Links
